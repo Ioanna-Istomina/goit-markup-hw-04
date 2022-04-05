@@ -343,15 +343,14 @@ h3 {
   color: #afb1b8;
   align-items: center;
   justify-content: center;
-}
-
-.client-link:hover {
-  color: var(--accent-color);
+  fill: currentColor;
+  outline: none;
 }
 
 .client-link:hover,
 .client-link:focus {
   border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .client-list {
@@ -362,14 +361,6 @@ h3 {
 .client-item {
   width: calc(100% / 6 - 30px);
   margin-right: 30px;
-}
-
-.client-item:hover {
-  fill: var(--accent-color);
-}
-
-.icon-client {
-  fill: currentColor;
 }
 
 /* Body portfolio */
